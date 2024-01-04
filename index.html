@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+    <p><a href="index.html"></a></p>
+
+    <!-- task 1 -->
+
+    <div class="container">
+        <ul id="categories">
+            <li class="item">
+                <h2 class="category">Animals</h2>
+                <ul>
+                    <li class="category-item">Cat</li>
+                    <li class="category-item">Hamster</li>
+                    <li class="category-item">Horse</li>
+                    <li class="category-item">Parrot</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2 class="category">Products</h2>
+                <ul>
+                    <li class="category-item">Bread</li>
+                    <li class="category-item">Parsley</li>
+                    <li class="category-item">Cheese</li>
+                </ul>
+            </li>
+            <li class="item">
+                <h2 class="category">Technologies</h2>
+                <ul>
+                    <li class="category-item">HTML</li>
+                    <li class="category-item">CSS</li>
+                    <li class="category-item">JavaScript</li>
+                    <li class="category-item">React</li>
+                    <li class="category-item">Node.js</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!------------------------------------------------------------------------------->
+
+    <!-- task 2 -->
+
+    <div class="wrapper">
+        <ul class="gallery"></ul>
+    </div>
+
+    <!------------------------------------------------------------------------------->
+
+    <!-- task3 -->
+    <div class="container">
+        <input class="box" type="text" id="name-input" placeholder="Please enter your name" />
+        <h1 class="hello">Hello, <span id="name-output">Anonymous</span>!</h1>
+    </div>
+    <!------------------------------------------------------------------------------->
+
+    <!-- task 4 -->
+    <div class="container">
+        <form class="login-form">
+            <label class="emailhere">
+                Email
+                <input class="pass" type="email" name="email" />
+            </label>
+            <label>
+                Password
+                <input class="pass" type="password" name="password" />
+            </label>
+            <button class="but" type="submit">Log in</button>
+        </form>
+    </div>
+    <!------------------------------------------------------------------------>
+
+    <!-- task 5 -->
+
+    <div class="widget">
+        <p class="parag">Background color: <span class="color">-</span></p>
+        <button type="button" class="change-color">Change color</button>
+    </div>
+
+    <!------------------------------------- -->
+
+    <!-- task 6 -->
+    <div class="container">
+        <div class="create" id="controls">
+            <input type="number" class="inp" min="1" max="100" step="1" />
+            <button data-create type="button" class="create-but">Create</button>
+            <button data-destroy type="button" class="destroy-but">Destroy</button>
+        </div>
+
+        <div id="boxes" class="box-space"></div>
+    </div>
+    <!-- -------------------------------------------- -->
+
+    <script src="./js/task-1.js" type="module"></script>
+    <script src="./js/task-2.js" type="module"></script>
+    <script src="./js/task-3.js" type="module"></script>
+    <script src="./js/task-4.js" type="module"></script>
+    <script src="./js/task-5.js" type="module"></script>
+    <script src="./js/task-6.js" type="module"></script>
+
+
+</body>
+
+</html>
